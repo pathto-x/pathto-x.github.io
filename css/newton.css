@@ -1,0 +1,347 @@
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+/*@media (min-width: 992px) {*/
+  body {
+    padding-top: 0;
+    /*padding-left: 1rem;*/
+    overflow-x: hidden;
+  }
+/*}*/
+/*hr{
+  padding-bottom: 3rem;
+}*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-family:'Open Sans',sans-serif;
+  text-transform: none;
+  font-weight:800;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family:'Open Sans',sans-serif;
+  text-transform: none;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+  font-family:'Open Sans',sans-serif;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+}
+
+
+section.pathto-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  /*max-width: 75rem;*/
+}
+
+section.pathto-section .pathto-item .pathto-date {
+  min-width: none;
+}
+
+/*@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}*/
+
+.bg-primary {
+  background-color: #BD5D38 !important;
+}
+
+.text-primary {
+  color: #BD5D38 !important;
+}
+
+li.a {
+  /*color: #BD5D38;*/
+  color: #fff
+}
+
+a:hover, a:focus, a:active {
+  /*color: #824027;*/
+  color: #999999
+}
+
+section a img{
+  height: 100px;
+  float:left;
+  margin-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+
+.butn_right {
+  background: #7fc7af;
+  background-image: -webkit-linear-gradient(top, #7fc7af, #65a791);
+  background-image: -moz-linear-gradient(top, #7fc7af, #65a791);
+  background-image: -ms-linear-gradient(top, #7fc7af, #65a791);
+  background-image: -o-linear-gradient(top, #7fc7af, #65a791);
+  background-image: linear-gradient(to bottom, #7fc7af, #65a791);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn_right:hover {
+  background: #3debb1;
+  background-image: -webkit-linear-gradient(top, #3debb1, #2ba67d);
+  background-image: -moz-linear-gradient(top, #3debb1, #2ba67d);
+  background-image: -ms-linear-gradient(top, #3debb1, #2ba67d);
+  background-image: -o-linear-gradient(top, #3debb1, #2ba67d);
+  background-image: linear-gradient(to bottom, #3debb1, #2ba67d);
+  text-decoration: none;
+}
+
+.butn_part {
+  background: #7fc7af;
+  background-image: -webkit-linear-gradient(top, #7fc7af, #c4b27a);
+  background-image: -moz-linear-gradient(top, #7fc7af, #c4b27a);
+  background-image: -ms-linear-gradient(top, #7fc7af, #c4b27a);
+  background-image: -o-linear-gradient(top, #7fc7af, #c4b27a);
+  background-image: linear-gradient(to bottom, #7fc7af, #c4b27a);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn_part:hover {
+  background: #3debb1;
+  background-image: -webkit-linear-gradient(top, #3debb1, #e0c984);
+  background-image: -moz-linear-gradient(top, #3debb1, #e0c984);
+  background-image: -ms-linear-gradient(top, #3debb1, #e0c984);
+  background-image: -o-linear-gradient(top, #3debb1, #e0c984);
+  background-image: linear-gradient(to bottom, #3debb1, #e0c984);
+  text-decoration: none;
+}
+
+
+
+.butn_wrong {
+  background: #e0c586;
+  background-image: -webkit-linear-gradient(top, #e0c586, #cdb579);
+  background-image: -moz-linear-gradient(top, #e0c586, #cdb579);
+  background-image: -ms-linear-gradient(top, #e0c586, #cdb579);
+  background-image: -o-linear-gradient(top, #e0c586, #cdb579);
+  background-image: linear-gradient(to bottom, #e0c586, #cdb579);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn_wrong:hover {
+  background: #ebba49;
+  background-image: -webkit-linear-gradient(top, #ebba49, #cca23f);
+  background-image: -moz-linear-gradient(top, #ebba49, #cca23f);
+  background-image: -ms-linear-gradient(top, #ebba49, #cca23f);
+  background-image: -o-linear-gradient(top, #ebba49, #cca23f);
+  background-image: linear-gradient(to bottom, #ebba49, #cca23f);
+  text-decoration: none;
+}
+
+html,
+body,
+.openseadragon1 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.splitter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#separator {
+    cursor: col-resize;
+    background-color: #aaa;
+    /*background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='30'><path d='M2 0 v30 M5 0 v30 M8 0 v30' fill='none' stroke='black'/></svg>");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 100%;
+
+/* prevent browser's built-in drag from interfering */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#separator svg{
+  position: fixed;
+  top: 50%;
+}
+
+#first {
+    /*background-color: #dde;*/
+    width: 31%;
+    height: 100%;
+    min-width: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#second {
+    /*background-color: #337abc;*/
+    background: #337abc;
+    background: -moz-linear-gradient(top,  #337abc 35%, #6693ba 100%);
+    background: -webkit-linear-gradient(top,  #337abc 35%,#6693ba 100%);
+    background: linear-gradient(to bottom,  #337abc 35%,#6693ba 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337abc', endColorstr='#6693ba',GradientType=0 );
+
+    /*background: #337abc;
+    background: -moz-linear-gradient(top,  #337abc 35%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top,  #337abc 35%,#7db9e8 100%);
+    background: linear-gradient(to bottom,  #337abc 35%,#7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337abc', endColorstr='#7db9e8',GradientType=0 );*/
+
+    /*background-color: #1fc8db;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+    width: 69%;
+    height: 100%;
+    min-width: 10px;
+}
+
+#mainNav.navbar-shrink {
+    background-color: #265b8c;
+    color: #fff;
+    /*padding-bottom: 20px;*/
+    /*position: fixed;
+    margin-bottom: 300px;
+    margin-top:-360px;*/
+}
+#mainNav a{
+  color: #fff;
+
+}
+#mainNav a:hover {
+  color: #ccc;
+}
+
+#mainNav button{
+  color: #fff;
+}
+
+#mainNav button:hover{
+  color: #ccc;
+}
+
+/* The switch - the box around the slider */
+.switch {
+position: relative;
+display: inline-block;
+width: 60px;
+height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
