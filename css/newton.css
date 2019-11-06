@@ -225,7 +225,7 @@ body,
 
 #separator svg{
   position: relative;
-  top: 45%;
+  top: calc(50% - 54px);
 }
 
 #first {
