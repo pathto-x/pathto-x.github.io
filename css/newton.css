@@ -224,7 +224,7 @@ body,
 }
 
 #separator svg{
-  position: fixed;
+  position: relative;
   top: 50%;
 }
 
